@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Byakan;
+  src: url(../font/BYekan.ttf);
+}
+body {
+  font-family: Byakan,sans-serif;
+}
+
+      /* .data-card {
+        opacity: 0;
+        transition: 1s ease;
+        position: relative;
+      }
+      .data-card.opacity {
+        opacity: 1;
+      } */
+      .card img{
+        height: 200px;
+      }
+      a {
+        text-decoration: none;
+      }
+      .bg-green {
+        background-color: green;
+      }
+      @media (min-width:800px) {
+        .carousel,carousel-inner,.carousel-item,img {
+          max-height: 800px;
+        }        
+      }
